@@ -2,7 +2,7 @@
 // your.module.ts
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { User } from 'src/users/user.entity';
+import { User } from 'src/users/product.entity';
 
 @Module({
   imports: [

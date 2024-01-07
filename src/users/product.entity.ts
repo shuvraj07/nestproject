@@ -8,11 +8,15 @@ export class User {
   id: number;
 
   @Column()
-  username: string;
+  name: string;
 
   @Column()
-  password: string;
+  description: string;
 
   @Column()
-  email: string;
+  price: number;
+
+  @Column()
+  category: string;
+
 }
